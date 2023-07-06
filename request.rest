@@ -1,0 +1,25 @@
+GET http://localhost:3003/users
+
+###
+PUT http://localhost:3003/users/501
+Content-Type: application/json
+
+{
+
+    "nome": "novo teste amores",
+    "cpf": "5555511556",
+    "dataDeNascimento": "06/09/1984"
+
+}
+
+###
+POST  http://localhost:3003/users
+Content-Type: application/json
+
+{
+    
+    "nome": "novo teste",
+    "cpf": "5555577",
+    "dataDeNascimento": "06/09/1977"
+
+}
